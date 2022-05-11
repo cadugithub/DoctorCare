@@ -114,6 +114,7 @@ section .content p{
 }
 
 /*=========CUSTOM COLORS=============*/
+
 #services .card circle{
   fill: var(--brand-light);
 }
@@ -133,7 +134,9 @@ body.menu-expanded #navigation .logo path,
 #navigation.scroll button.open-menu path[stroke*="#00856F"]{
   stroke: white;
 }
+
 /*============NAVEGATION=============*/
+
 nav {
   display: flex;
   height: var(--nav-height);
@@ -163,7 +166,9 @@ nav .menu,
 nav .close-menu{
   position: fixed;
 }
+
 /*============MENU-EXPANDED=============*/
+
 body.menu-expanded{
   overflow: hidden;
 }
@@ -255,7 +260,9 @@ body.menu-expanded .logo path{
 body.menu-expanded  button path{
   stroke: white;
 }
+
 /*================================#HOME====================================*/
+
 #home {
   padding-block: 0;
   padding-top: calc(4.1rem + var(--nav-height));
@@ -316,6 +323,7 @@ body.menu-expanded  button path{
 }
 
 /*============SERVICES=============*/
+
 #services h2{
   margin-bottom: 6rem;
 }
@@ -336,6 +344,7 @@ body.menu-expanded  button path{
 }
 
 /*============ABOUT=============*/
+
 #about{
   text-align: left;
   background:var(--brand-baige);
@@ -347,7 +356,9 @@ body.menu-expanded  button path{
   margin-top: 2.4rem;
   margin-bottom: 6rem;
 }
+
 /*============CONTACT=============*/
+
 #contact{
   text-align: left;
 }
@@ -367,6 +378,7 @@ body.menu-expanded  button path{
   align-items: center;
   gap:0.8rem; 
 }
+
 /*============FOOTER=============*/
 
 footer{
@@ -396,7 +408,9 @@ footer p{
 footer .social-links{
   justify-content: flex-start;
 }
+
 /*============BACK TO TOP=============*/
+
 #backToTopButton{
   position: fixed;
   bottom: 1rem;
@@ -417,6 +431,7 @@ footer .social-links{
 
 /*============RESPONSIVO=============*/
 @media(min-width: 1024px){
+
   /*============GERAL=============*/
   body{
     overflow: auto;
@@ -438,6 +453,7 @@ footer .social-links{
     font-size: 4rem;
     line-height: 5.2rem;
   }
+
   /*============NAVIGATION=============*/
 
   /*reset*/
@@ -550,6 +566,7 @@ footer .social-links{
     border: none;
   }
   /*============HOME=============*/
+
   #home::before{
     height: calc(96% - var(--nav-height));
   }
@@ -593,6 +610,7 @@ footer .social-links{
     width: 42rem;
   }
   /*============SERVICES=============*/
+
   #services h2{
     width: 47rem;
     margin-inline: auto;;
@@ -607,6 +625,7 @@ footer .social-links{
     flex-grow: 1;
   }
   /*============ABOUT=============*/
+
   #about .wrapper{
     grid-template-columns: 48rem 1fr;
     grid-template-areas: 'B A';
@@ -619,6 +638,7 @@ footer .social-links{
     margin-bottom: 0;
   }
   /*============CONTACT=============*/
+
   #contact .wrapper{
     grid-template-columns: 1fr 57.7rem;
     grid-template-areas: 'A B';
@@ -626,7 +646,9 @@ footer .social-links{
   #contact h2{
     width: 40.4rem;
   }
+
   /*============FOOTER=============*/
+
   footer{
     padding-block: 8rem;
   }
