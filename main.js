@@ -4,6 +4,11 @@ function onScroll(){
   showNavOnScroll()
   showBackToTopOnScroll()
 }
+
+function activateMenuAtCurrentSection(){
+  
+}
+
 function showNavOnScroll(){
   if(scrollY == 0){
     navigation.classList.remove('scroll')
